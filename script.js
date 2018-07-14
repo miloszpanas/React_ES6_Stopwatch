@@ -85,15 +85,15 @@ class Stopwatch extends React.Component {
                 <nav class="controls">
                     <a href="#" class="button" onClick={this.start.bind(this)}>Start</a>
                     <a href="#" class="button" onClick={this.stop.bind(this)}>Stop</a>
-                    <a href="#" class="button" onClick={this.add.bind(this)}>Add</a>
-                    <a href="#" class="button" onClick={this.clear.bind(this)}>Clear</a>
                 </nav>
                 <div class="stopwatch">
                     { this.format(this.state.times) }
                 </div>
-                <nav class="controls">
+                <div class="controls">
                     <a href="#" class="button" onClick={this.resetTimer.bind(this)}>Reset</a>
-                </nav>
+                    <a href="#" class="button" onClick={this.add.bind(this)}>Save</a>
+                    <a href="#" class="button" onClick={this.clear.bind(this)}>Clear</a>
+                </div>
                 <ul class="results">
                     {this.state.results.map(result => <li>{result}</li>)}
                 </ul>

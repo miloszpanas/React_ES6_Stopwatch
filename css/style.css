@@ -17,17 +17,33 @@ body {
 
 .controls {
   font-size: 3em;
-  margin-bottom: .1em; }
+  margin-bottom: .1em;
+  text-align: center; }
   .controls a {
     text-decoration: none;
     color: #ffffffa6;
-    margin-right: 0.2em; }
+    margin-right: 0.4em; }
     .controls a:last-child {
       margin-right: 0; }
 
 .stopwatch {
   font-size: 3em;
   color: #ffffffa6;
-  letter-spacing: 0.2rem; }
+  letter-spacing: 0.2rem;
+  text-align: center; }
+
+.results {
+  margin: 0 auto;
+  margin-top: 1.2em;
+  padding: 0.3em 1em;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  color: #ffffffa6;
+  border: 2px solid #ffffffa6;
+  border-radius: 5px;
+  width: 200px; }
+  .results li {
+    font-size: 1.3em; }
 
 /*# sourceMappingURL=style.css.map */

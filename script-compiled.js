@@ -126,16 +126,6 @@ var Stopwatch = function (_React$Component) {
                         "a",
                         { href: "#", "class": "button", onClick: this.stop.bind(this) },
                         "Stop"
-                    ),
-                    React.createElement(
-                        "a",
-                        { href: "#", "class": "button", onClick: this.add.bind(this) },
-                        "Add"
-                    ),
-                    React.createElement(
-                        "a",
-                        { href: "#", "class": "button", onClick: this.clear.bind(this) },
-                        "Clear"
                     )
                 ),
                 React.createElement(
@@ -144,12 +134,22 @@ var Stopwatch = function (_React$Component) {
                     this.format(this.state.times)
                 ),
                 React.createElement(
-                    "nav",
+                    "div",
                     { "class": "controls" },
                     React.createElement(
                         "a",
                         { href: "#", "class": "button", onClick: this.resetTimer.bind(this) },
                         "Reset"
+                    ),
+                    React.createElement(
+                        "a",
+                        { href: "#", "class": "button", onClick: this.add.bind(this) },
+                        "Save"
+                    ),
+                    React.createElement(
+                        "a",
+                        { href: "#", "class": "button", onClick: this.clear.bind(this) },
+                        "Clear"
                     )
                 ),
                 React.createElement(
