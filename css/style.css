@@ -46,4 +46,8 @@ body {
   .results li {
     font-size: 1.3em; }
 
+@media (max-width: 767px) {
+  .controls {
+    background-color: red; } }
+
 /*# sourceMappingURL=style.css.map */

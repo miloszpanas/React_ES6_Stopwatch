@@ -116,21 +116,21 @@ var Stopwatch = function (_React$Component) {
                 null,
                 React.createElement(
                     "nav",
-                    { "class": "controls" },
+                    { className: "controls" },
                     React.createElement(
                         "a",
-                        { href: "#", "class": "button", onClick: this.start.bind(this) },
+                        { href: "#", className: "button", onClick: this.start.bind(this) },
                         "Start"
                     ),
                     React.createElement(
                         "a",
-                        { href: "#", "class": "button", onClick: this.stop.bind(this) },
+                        { href: "#", className: "button", onClick: this.stop.bind(this) },
                         "Stop"
                     )
                 ),
                 React.createElement(
                     "div",
-                    { "class": "stopwatch" },
+                    { className: "stopwatch" },
                     this.format(this.state.times)
                 ),
                 React.createElement(
@@ -138,23 +138,23 @@ var Stopwatch = function (_React$Component) {
                     { "class": "controls" },
                     React.createElement(
                         "a",
-                        { href: "#", "class": "button", onClick: this.resetTimer.bind(this) },
+                        { href: "#", className: "button", onClick: this.resetTimer.bind(this) },
                         "Reset"
                     ),
                     React.createElement(
                         "a",
-                        { href: "#", "class": "button", onClick: this.add.bind(this) },
+                        { href: "#", className: "button", onClick: this.add.bind(this) },
                         "Save"
                     ),
                     React.createElement(
                         "a",
-                        { href: "#", "class": "button", onClick: this.clear.bind(this) },
+                        { href: "#", className: "button", onClick: this.clear.bind(this) },
                         "Clear"
                     )
                 ),
                 React.createElement(
                     "ul",
-                    { "class": "results" },
+                    { className: "results" },
                     this.state.results.map(function (result) {
                         return React.createElement(
                             "li",
